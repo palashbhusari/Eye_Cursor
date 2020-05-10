@@ -1,2 +1,4 @@
 .vscode
-.dat
+*.dat
+test.py
+test2.py
