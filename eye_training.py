@@ -15,10 +15,8 @@ def roi():
     x_36,y_36=landmarks.part(36).x , landmarks.part(36).y
     x_39,y_39=landmarks.part(39).x , landmarks.part(39).y
     #ratios
-    #h=x_39-x_36 # eye width
-    #w=int(1.5*h)
-    h=40
-    w=60
+    h=x_39-x_36 # eye width
+    w=int(1.5*h)
     rx,ry=x_36-int(h/3),y_36-int(h/2)
     cv2.rectangle(frame,(rx,ry), (rx+w,ry+h), (0, 255, 0), 1)
     print(h,"  ",w)
