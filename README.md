@@ -1,2 +1,5 @@
 # Eye_Cursor
-Controling Cursor with eyes
+Controling computer Cursor with eye movements 
+blick or wink for mouse Clicks
+
+
